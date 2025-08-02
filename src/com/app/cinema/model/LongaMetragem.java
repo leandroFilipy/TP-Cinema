@@ -30,7 +30,7 @@ public class LongaMetragem extends Filmes {
     @Override
     public String toString() {
 
-        return "Gênero: " + genero;
+        return "ID: " + id + "\nGênero: " + genero;
     }
 
 }

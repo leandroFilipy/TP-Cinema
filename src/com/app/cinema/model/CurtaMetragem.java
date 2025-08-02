@@ -29,7 +29,7 @@ public class CurtaMetragem extends Filmes{
     @Override
     public String toString () {
 
-        return "Classificação Indicativa: " + classificacaoIndicativa;
+        return "ID: " + id + "\nClassificação Indicativa: " + classificacaoIndicativa;
     }
 
 

@@ -59,11 +59,11 @@ public class Atendente {
 
         return duracao;
     }
-    public String escolhaClassificacaoIndicativa() {
+    public int escolhaClassificacaoIndicativa() {
 
         System.out.print("||-------------------------------------||");
         System.out.print("||Classificação Indicativa do Filme:   ||");
-        String classificacaoIndicativa = read.nextLine();
+        int classificacaoIndicativa = read.nextInt();
 
         return classificacaoIndicativa;
     }

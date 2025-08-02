@@ -27,6 +27,19 @@ public class Estoque {
                 if(escolhaOqueCadastrar1 == 1) {
 
                     int id1 = atendente.escolhaId();
+                    String nome1 = atendente.escolhaNome();
+                    String duracao1 = atendente.escolhaDuracao();
+
+                    Filmes filme = new Filmes(id1,nome1,duracao1);
+
+                }else if(escolhaOqueCadastrar1 == 2) {
+
+                    int id1 = atendente.escolhaId();
+                    String nome1 =atendente.escolhaNome();
+                    String duracao1 = atendente.escolhaDuracao();
+                    int classificacaoIndicativa1 = atendente.escolhaClassificacaoIndicativa();
+
+                    CurtaMetragem filme = new CurtaMetragem (id1,classificacaoIndicativa1, nome1,duracao1);
                 }
 
 
